@@ -1,0 +1,1 @@
+ /home/maickon/Documentos/GitHub/openchat/.dart_tool/flutter_build/ff01a15c9f5a8a48cd29d69a37ba04ed/native_assets.yaml: 
