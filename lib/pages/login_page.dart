@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:openchat/components/my_button.dart';
 import 'package:openchat/components/my_text_field.dart';
 
 class LoginPage extends StatefulWidget {
@@ -60,7 +61,10 @@ class _LoginPage extends State<LoginPage> {
                 obscureText: true,
               ),
 
+              const SizedBox(height: 25),
+
               // Botão
+              MyButton(onTap: () {}, text: "Entrar")
             ],
           ),
         ),
