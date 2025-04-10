@@ -1,0 +1,30 @@
+[debug] [2025-04-10T18:41:48.991Z] ----------------------------------------------------------------------
+[debug] [2025-04-10T18:41:48.993Z] Command:       /usr/local/bin/firebase /home/maickon/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase apps:sdkconfig web 1:804702242861:web:037cfa08d52839b3a8d0a4 --json
+[debug] [2025-04-10T18:41:48.994Z] CLI Version:   14.1.0
+[debug] [2025-04-10T18:41:48.994Z] Platform:      linux
+[debug] [2025-04-10T18:41:48.994Z] Node Version:  v20.18.2
+[debug] [2025-04-10T18:41:48.994Z] Time:          Thu Apr 10 2025 15:41:48 GMT-0300 (GMT-03:00)
+[debug] [2025-04-10T18:41:48.994Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-10T18:41:48.999Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-10T18:41:48.999Z] > authorizing via signed-in user (maickonbrenner@gmail.com)
+[debug] [2025-04-10T18:41:49.003Z] Checked if tokens are valid: true, expires at: 1744312305802
+[debug] [2025-04-10T18:41:49.003Z] Checked if tokens are valid: true, expires at: 1744312305802
+[debug] [2025-04-10T18:41:49.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:804702242861:web:037cfa08d52839b3a8d0a4/config [none]
+[debug] [2025-04-10T18:41:49.909Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:804702242861:web:037cfa08d52839b3a8d0a4/config 200
+[debug] [2025-04-10T18:41:49.910Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:804702242861:web:037cfa08d52839b3a8d0a4/config {"projectId":"openchat-4a714","appId":"1:804702242861:web:037cfa08d52839b3a8d0a4","storageBucket":"openchat-4a714.firebasestorage.app","apiKey":"AIzaSyB47WZMTdjVGdyAaXmba3L5iD-uB1LsHfk","authDomain":"openchat-4a714.firebaseapp.com","messagingSenderId":"804702242861","measurementId":"G-52JD62TPGX"}
+[info] {
+  "projectId": "openchat-4a714",
+  "appId": "1:804702242861:web:037cfa08d52839b3a8d0a4",
+  "storageBucket": "openchat-4a714.firebasestorage.app",
+  "apiKey": "AIzaSyB47WZMTdjVGdyAaXmba3L5iD-uB1LsHfk",
+  "authDomain": "openchat-4a714.firebaseapp.com",
+  "messagingSenderId": "804702242861",
+  "measurementId": "G-52JD62TPGX"
+}
+[debug] [2025-04-10T18:41:55.184Z] Error: Timed out.
+    at Timeout._onTimeout (/home/maickon/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:269:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.

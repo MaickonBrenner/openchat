@@ -23,13 +23,14 @@ class _LoginPage extends State<LoginPage> {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(height: 50),
 
               // Logo
               Icon(
                 Icons.message,
-                size: 80,
+                size: 100,
                 color: Colors.grey[800],
               ),
 
@@ -64,7 +65,23 @@ class _LoginPage extends State<LoginPage> {
               const SizedBox(height: 25),
 
               // Botão
-              MyButton(onTap: () {}, text: "Entrar")
+              MyButton(onTap: () {}, text: "Entrar"),
+
+              const SizedBox(height: 50),
+              
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('Não está conseguindo?'),
+                  SizedBox(width: 4),
+                  Text(
+                    'Registre agora',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
+                ],
+              )
             ],
           ),
         ),
